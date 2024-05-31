@@ -1,0 +1,394 @@
+html, body
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 16px;
+	line-height: 22px;
+	color: #043217;
+	position: relative;
+	-webkit-text-size-adjust: none;
+	-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;-khtml-user-select: none;-o-user-select: none;
+}
+
+/* darkmode start --*/
+.dark-mode {
+	background-color: #000000;
+	color: white;
+  }
+  .dark-mode .arab1{
+	background-color: #000000;
+	color: white;
+  }
+  .dark-mode .arab2{
+	background-color: #000000;
+	color: white;
+  }
+  .dark-mode .arab3{
+	background-color: #000000;
+	color: white;
+  }
+  .dark-mode .arab4{
+	background-color: #000000;
+	color: white;
+  }
+  .dark-mode blockquote{
+	background-color: #006e2e;
+	color: white;
+  }
+  .dark-mode .arabcenter{
+	background-color: #000000;
+	color: white;
+  }
+  .dark-mode .arab1center{
+	background-color: #255531;
+	color: white;
+  }
+  .dark-mode .arab3center{
+	background-color: #255531;
+	color: white;
+  }
+  .dark-mode .arab4center{
+	background-color: #255531;
+	color: white;
+  }
+  .dark-mode .arab2center{
+	background-color: #255531;
+	color: white;
+  }
+  .dark-mode .arab{
+	background-color: #006e2e;
+	color: white;
+  }
+  .dark-mode .content{
+	background: transparent;
+	color: white;
+  }
+  .dark-mode i{
+	background-color: #000000;
+	color: white;
+  }
+  .dark-mode p{
+	background-color: #000000;
+	color: white;
+  }
+  .dark-mode .noarab{
+	background-color: #000000;
+	color: white;
+  }
+  .dark-mode button{
+	background-color: #fff;
+	color: #04631C;
+  }
+  .dark-mode button:hover{
+  background:#04631C;
+  color:#fff;
+  }
+  .dark-mode .reset{
+	background-color: #fff;
+	color: #006e2e;
+  }
+  .dark-mode .arab3jeda{
+	background-color: #262e1f;
+	color: white;
+  }
+  .dark-mode .latin3{
+	background-color: #006e2e;
+	color: white;
+  }
+  .dark-mode .terjemah3{
+	background-color: #006e2e;
+	color: white;
+  }
+  .dark-mode .latin2{
+	background-color: #006e2e;
+	color: white;
+  }
+  .dark-mode .terjemah{
+	background-color: #006e2e;
+	color: white;
+  }
+  .dark-mode .arab3warna{
+	background-color: #262e1f;
+	color: white;
+  }
+  .dark-mode .tulisanayat{
+	background-color: #4c6039;
+	color: white;
+  }
+  .dark-mode .surat{
+	background-color: #4c6039;
+	color: white;
+  }
+  .dark-mode .berapax{
+	background-color: #006e2e;
+	color: #FFFF00;
+  }
+  .berapax{font-size:25px;font-family:Helvetica;color:red}
+  
+  /* darkmode end --*/
+
+
+body *
+{
+	text-shadow: none;
+}
+
+h3{
+position:relative;
+margin:0 0 5px;
+padding:0 0 5px 0;
+border-bottom:2px solid rgba(0,0,0,0.05);
+font-size:130%;
+line-height:130%;
+text-align:left;
+}
+h3:before{
+content:&#39;&#39;
+position:absolute;
+bottom:-2px;left:0;right:0;
+background:#333;
+width:10%;
+height:2px
+}
+
+
+h1, h2, h4, h5
+{
+	line-height: 130%;
+	font-weight: bold;
+	margin: 20px 0 10px 0;
+}
+h1, h2
+{
+	font-size: 20px;
+}
+h4, h5
+{
+	font-size: 16px;
+}
+p
+{
+	margin: 0 0 10px 0;
+}
+/*
+a, a:link, a:active, a:visited, a:hover
+{
+	color: inherit;
+	text-decoration: none;
+}
+*/
+
+nav:not(.mm-menu)
+{
+	display: none;
+}
+
+/* scrip masukan .content supaya bisa dicopy, 
+-webkit-user-select: text;-moz-user-select: text;-ms-user-select: text;user-select: text; --*/
+.content{
+	text-align: justify;
+	font-size: 16px;
+	color: #043217;
+	background:#F1F1E7;
+	-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;-khtml-user-select: none;-o-user-select: none;
+}
+.header,
+.footer
+{
+	text-align: center;
+}
+.header
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 40px;
+
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+	width: 100%;
+	height: 45px;
+	padding: 0 50px;
+	background: #03824E;
+	/* background: -webkit-linear-gradient(left, #008035 0%,#2d81ff 100%); */
+}
+.footer{
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 40px;
+
+
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+	width: 100%;
+	height: 40px;
+	padding: 0 50px;
+	background: -webkit-linear-gradient(left, #11af00 0%,#2d81ff 100%);
+}
+
+.header.fixed
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.footer.fixed
+{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.header a
+{
+	display: block;
+	width: 28px;
+	height: 18px;
+	padding: 11px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.header a:before,
+.header a:after
+{
+	content: '';
+	display: block;
+	background: #fff;
+	height: 2px;
+}
+.header a span
+{
+	background: #fff;
+	display: block;
+	height: 2px;
+	margin: 6px 0;
+}
+.content
+{
+	padding: 60px 10px 60px 10px;
+	-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;-khtml-user-select: none;-o-user-select: none;
+}
+.noarab{font-size: 130%;font-family: 'KFGQPC Uthmanic Script HAFS'; color: #EE6A0A;.font-weight:bold;direction: rtl;}
+.noarab2{font-size: 130%;color: #EE6A0A;}
+
+.arab3 {font-size: 140%;padding-bottom: 5px;text-align: center;font-family: 'LPMQ Isep Misbah'; color: #000;.font-weight:bold;line-height: 200%;direction: rtl;margin:10px 0px 10px 0px;}
+
+.arab2center {padding: 5px 5px 2px 5px;border-radius:20px;font-size: 240%;text-align: center;font-family: 'Arabic Typesetting'; color: #000;.font-weight:bold;line-height: 140%;direction: rtl;margin:10px 0px 10px 0px;background:#B6F7B0;}
+
+.arab3center {padding: 10px 5px 10px 5px;border-radius:25px;font-size: 140%;text-align: center;font-family: 'LPMQ Isep Misbah'; color: #000;.font-weight:bold;line-height: 150%;direction: rtl;margin:10px 0px 10px 0px;background:#B6F7B0;}
+
+.arab4center {padding: 10px 5px 10px 5px;border-radius:25px;font-size: 140%;text-align: center;font-family: 'LPMQ Isep Misbah'; color: #000;.font-weight:bold;line-height: 200%;direction: rtl;margin:10px 0px 10px 0px;background:#B6F7B0;}
+
+.tulisanayat {border-radius:20px;font-size: 120%;padding-bottom: 5px;text-align: center;font-family: 'LPMQ Isep Misbah'; color: #000;.font-weight:bold;line-height: 190%;direction: rtl;margin:10px 0px 10px 0px;background:#B6F7B0;padding:4px;margin-bottom:5px;}
+
+.arab3jeda {border-radius:0px;font-size: 140%;padding-bottom: 5px;text-align: center;font-family: 'LPMQ Isep Misbah'; color: #000;.font-weight:bold;line-height: 190%;direction: rtl;margin:10px 0px 10px 0px;background:#f7d8c1;padding:4px;margin-bottom:5px;}
+
+.arab {font-size: 250%;padding: 2px;text-align: right;font-family: 'Arabic Typesetting'; color: #000;line-height: 110%;direction: rtl;}
+
+.arabcenter {font-size: 140%;padding: 2px 5px 3px 5px;text-align: center;font-family: 'LPMQ Isep Misbah'; color: #000;.font-weight:bold;line-height: 200%;direction: rtl;margin:10px 0px 10px 0px;border-left: 2px solid #384929;border-right: 2px solid #384929;}
+
+.arab1center {padding: 10px 5px 10px 5px;border-radius:20px;font-size: 160%;text-align: center;font-family: 'KFGQPC Uthman Taha Naskh', KFGQPC_Naskh, 'traditional arabic'; color: #000;.font-weight:bold;line-height: 170%;direction: rtl;margin:10px 0px 10px 0px;background:#B6F7B0;}
+
+.arab1 {font-size: 170%;padding: 2px;text-align: right;font-family: 'KFGQPC Uthman Taha Naskh', KFGQPC_Naskh, 'traditional arabic'; color: #000;.font-weight:bold;line-height: 190%;direction: rtl;}
+.arab2 {font-size: 140%;line-height: 190%;font-family: 'KFGQPC Uthman Taha Naskh', KFGQPC_Naskh, 'traditional arabic';}
+
+.arab4 {font-size: 140%;padding-bottom: 5px;text-align: right;font-family: 'LPMQ Isep Misbah'; color: #000;.font-weight:bold;line-height: 200%;direction: rtl;margin:10px 0px 10px 0px;}
+.arab5 {font-size: 140%;padding-bottom: 5px;text-align: right;font-family: 'LPMQ Isep Misbah'; color: #000;.font-weight:bold;line-height: 200%;direction: rtl;margin:10px 30px 10px 0px;}
+
+.bacaini{background:#006e2e;font-size:16px;font-style:bold;line-height: 100%;color:#fff;text-align: center;direction: ltr;font-family: Arial, Helvetica, Verdana;padding:7px;border-radius:10px;}
+.bacaini a{color:#fff}
+
+.latin{font-size:17px;font-style:italic;line-height: 100%;color:#225809}
+.latin2{font-size:17px;font-style:italic;line-height: 100%;color:#225809;text-align: left;direction: ltr;font-family: Arial, Helvetica, Verdana;margin-bottom:5px;}
+.terjemah{font-size:16px;line-height: 100%;color:#000;text-align: left;direction: ltr;font-family: Arial, Helvetica, Verdana;}
+
+.latin3{font-size:17px;font-style:italic;line-height: 110%;color:#000;text-align: left;direction: ltr;font-family: Arial, Helvetica, Verdana;margin-bottom:5px;background:#D3EABD;padding:5px;text-align:justify;}
+.terjemah3{font-size:16px;line-height: 110%;color:#000;text-align: left;direction: ltr;font-family: Arial, Helvetica, Verdana;margin-bottom:10px;background:#D6F7D3;padding:5px;text-align:justify;}
+
+.font-button{
+            height: 30px;
+            width: 30px;
+            display: inline-block;
+            color: #000;
+            text-align: center;
+            line-height: 30px;
+            font-size: 14pt;
+            cursor: pointer;
+			float:right;
+			margin-top:-25px;
+        }
+
+/* Style the search box */
+#mySearch {
+  width: 96%;
+  font-size: 15px;
+  padding: 7px;
+  border: 1px solid #000;
+  border-radius:6px;
+  margin-bottom:5px;
+  text-align:center;
+}
+
+/* Style the navigation menu */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the navigation links */
+#myMenu li a {
+	border-radius:6px;
+	border:1px solid #fff;
+	display:inline-block;
+	cursor:pointer;
+	font-family:verdana;
+	font-size:13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin-right:3px;background:#006e2e;color:#fff;width:22%;max-width:22%;float:left;border-radius:15px;text-align:center;
+	padding:6px 2px 3px 2px;margin-bottom:5px;height:50px;max-height:50px;
+}
+
+#myMenu li a:hover {
+
+	background-color:#148408;
+}
+
+img {max-width:95%;}
+
+blockquote{border-left: 3px solid #384929;font-family:serif;font-size:13px;text-align: justify;background: #fdfbee;line-height: 1.2;display:block;margin: 10px 0 20px;padding: 15px 20px 15px 45px;position: relative; font-size: 16px;color: #666;border-right: 1px solid #384929;box-shadow: 2px 2px 15px #ccc;-webkit-box-shadow: 2px 2px 15px #ccc;-moz-box-shadow: 2px 2px 15px #ccc;-webkit-touch-callout:text;-khtml-user-select:text;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;}
+blockquote::before{font-size: 45px;position: absolute;color: #384929;left: 10px;top:5px;font-weight: bold;content: "“";}
+blockquote a{cursor: pointer;color: #384929;text-decoration: none;background: #eee;padding: 0 3px;}
+blockquote a:hover{color: #555;}
+
+
+
+.pilihan{margin-right:3px;background:#255531;color:#fff;width:24%;float:left;padding:3px;border-radius:15px;text-align:center;}
+.arabpilih{font-size: 120%;padding-bottom: 5px;text-align: center;font-family: 'LPMQ Isep Misbah'; color: #fdfa04;.font-weight:bold;line-height: 130%;direction: rtl;margin:10px 0px 10px 0px;white-space: nowrap;width:23%;}
+.latinpil{font-size: 75%;color:#fff;text-wrap:5;}
+.juzamma{clear:both;clear:both;width:96%;background:#255531;font-size:16px;font-style:bold;line-height: 100%;color:#fff;text-align: center;direction: ltr;font-family: Arial, Helvetica, Verdana;padding:7px;border-radius:10px;margin:60px 0px 5px 0px;}
+.juzamma2{clear:both;width:96%;background:#fdfbee;height:0px;}
+
+button
+{
+	border-radius:9px;
+	padding:3px 1px 3px 1px;
+	width:90px;
+	background:#04631C;
+	color:#fff;
+	transition-duration: 0.2s;
+}
+
+button:hover {
+	background-color: #ffffff;
+	color: rgb(0, 0, 0);
+  }
+
+i{color:#225809;font-size:100%;font-style:bold;}
